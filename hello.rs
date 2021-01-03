@@ -15,15 +15,16 @@ fn hitung(x: i32,y:i32) -> i32
 	return count;
 }
 
-fn name()
+fn name()  -> &'static str
+
 {
 	return "Irfa Ardiansyah";
 }
 
-fn nyoba_array()
+fn nyoba_array() -> [&'static str; 3]
 {
-	let arr=["Harta","Tahta","Himeka"]
-	return arr
+	let arr=["Harta","Tahta","Himeka"];
+	return arr;
 }
 
 //Irfa Ardiansyah
